@@ -8,5 +8,8 @@
   "type": "module",
   "scripts": {
     "start": "node src/index.js"
+  },
+  "dependencies": {
+    "superagent": "^6.1.0"
   }
 }
