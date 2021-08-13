@@ -1,0 +1,12 @@
+{
+  "name": "nodejs-design-pattern",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Puppo/nodejs-design-pattern.git",
+  "author": "Luca Del Puppo <luca@delpuppo.net>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  }
+}
