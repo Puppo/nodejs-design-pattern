@@ -1,5 +1,7 @@
-function run() {
-    console.log('Hello from nodejs design patterns');
-}
+import { FailsafeSocket } from './failsafeSocket.js'
 
-run();
+const failsafeSocket = new FailsafeSocket({ port: 5000 })
+
+setInterval(() => {
+    failsafeSocket.send(process.memoryUsage())
+}, 1000)

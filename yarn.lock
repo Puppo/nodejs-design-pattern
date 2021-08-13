@@ -2,3 +2,20 @@
 # yarn lockfile v1
 
 
+is-buffer@^2.0.4:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/is-buffer/-/is-buffer-2.0.5.tgz#ebc252e400d22ff8d77fa09888821a24a658c191"
+  integrity sha512-i2R6zNFDwgEHJyQUtJEk0XFi1i0dPFn/oqjK3/vPCcDeJvW5NQ83V8QbicfF1SupOaB0h8ntgBC2YiE7dfyctQ==
+
+is-stream@^2.0.0:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/is-stream/-/is-stream-2.0.1.tgz#fac1e3d53b97ad5a9d0ae9cef2389f5810a5c077"
+  integrity sha512-hFoiJiTl63nn+kstHGBtewWSKnQLpyb155KHheA1l39uvtO9nWIop1p3udqPcUd/xbF1VLMO4n7OI6p7RbngDg==
+
+json-over-tcp-2@^0.3.5:
+  version "0.3.5"
+  resolved "https://registry.yarnpkg.com/json-over-tcp-2/-/json-over-tcp-2-0.3.5.tgz#e3ced39f01e48447122a070ffc0ce05ca35f14ad"
+  integrity sha512-aN8/NDN3eGy9zbF4e+nwEKjt/y3M3XJUJnT2KAUDpPm1YEH2HefoLECg9KUuaQEJYd4xkQYutbnxpcXjaQENkA==
+  dependencies:
+    is-buffer "^2.0.4"
+    is-stream "^2.0.0"
